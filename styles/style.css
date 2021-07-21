@@ -197,6 +197,7 @@ Welcome Section Styling
 
 #welcome-details p {
   color: #594a26;
+  font-weight: 400;
 }
 
 #donation {
@@ -238,15 +239,61 @@ Welcome Section Styling
   }
 
   #welcome-text h1 {
-    font-size: 5vh;
+    font-size: 4vh;
   }
 
   #welcome-text h4 {
-    font-size: 4vh;
+    font-size: 3.5vh;
   }
 
   #welcome-text p {
     font-size: 2.5vh;
+  }
+  #donation h5 {
+    font-size: 3.5vh;
+  }
+}
+@media screen and (max-width: 375px) {
+  #welcome-text {
+    top: -45%;
+    height: 80vh;
+  }
+
+  #welcome-text h1 {
+    font-size: 3.5vh;
+  }
+
+  #welcome-text h4 {
+    font-size: 2.5vh;
+  }
+
+  #welcome-text p {
+    font-size: 2.5vh;
+  }
+  #donation h5 {
+    font-size: 2.5vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #welcome-text {
+    top: -45%;
+    height: 80vh;
+  }
+
+  #welcome-text h1 {
+    font-size: 3vh;
+  }
+
+  #welcome-text h4 {
+    font-size: 2vh;
+  }
+
+  #welcome-text p {
+    font-size: 2vh;
+  }
+  #donation h5 {
+    font-size: 2vh;
   }
 }
 
